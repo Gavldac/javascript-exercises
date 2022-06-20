@@ -1,10 +1,4 @@
 const sumAll = function (startNum, finishNum) {
-    // typeof should return "number"
-    // return "ERROR" for non-number arguments
-    // return "ERROR" for arguments less than 0
-    // sort arguments by size/value
-
-    // first num for counter start stop when equal to second num 
     if (typeof(startNum) != 'number' || typeof(finishNum) != 'number') {
         return 'ERROR';
     }
